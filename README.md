@@ -7,7 +7,7 @@
 ## Install
 
 ```sh
-go get github.com/verify-lab/ptrutil
+go get github.com/verify-lab/strutil
 ```
 
 ## Example
@@ -15,11 +15,11 @@ go get github.com/verify-lab/ptrutil
 ```go
 package example
 
-import "github.com/verify-lab/ptrutil"
+import "github.com/verify-lab/strutil"
 
 ...
 
-fmt.Println(ptrutil.StripNonPrintable("example\u000a"))
+fmt.Println(strutil.StripNonPrintable("example\u000a"))
 
 // Output:
 // example
